@@ -1,0 +1,13 @@
+##Tracelytics Munin Templates##
+
+Based on Jeremy Clarke's Raven templates
+(http://simianuprising.com/2011/02/19/raven-my-custom-theme-templates-for-munin/),
+which makes the licence for this the GPL.
+
+This is just stuff we had to do to get the templates working--remove broken
+links, make img tags have src attributes by default (?), etc.
+
+###Installation note###
+
+You'll need to copy `raven.js` and `munin-logo-305x80.png` into the web root
+for munin's generated files.
