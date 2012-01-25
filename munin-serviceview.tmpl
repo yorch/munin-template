@@ -1,15 +1,9 @@
 <TMPL_INCLUDE NAME="partial/head.tmpl">
-<!--
-Body material.
-First comes a heading frame with logo and the breadcrumbs with links to each level above
--->
-	<body>
 		<TMPL_INCLUDE NAME="partial/logo_navigation.tmpl">
 		<!-- Loop over the services at this level.  Mostly only to access the
 		nested variables describing the _one_ service that should be
 		available here. -->
 		<TMPL_LOOP NAME="SERVICES">
-
 		<table class="invisiblebox">
 			<tr>
 				<!-- Table row: Day image -->
@@ -84,6 +78,4 @@ First comes a heading frame with logo and the breadcrumbs with links to each lev
 				</td>
 			</tr>
 		</table>
-		<TMPL_INCLUDE NAME="partial/generated_by.tmpl">
-	</body>
-</html>
+<TMPL_INCLUDE NAME="partial/foot.tmpl">
