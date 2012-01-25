@@ -26,6 +26,11 @@ h3
   margin:5px 0;
 }
 
+a img
+{
+  border:none;
+}
+
 #rounded5-border2-padding,#categories,#cattoc li.selected,.invisiblebox,.box,.linkbox,.rounded5-border2-padding
 {
   -moz-border-radius:5px;
@@ -67,21 +72,18 @@ h3
   border-color:#ddd;
 }
 
-
-
-
-
-a img
+#header
 {
-  border:none;
+  background-image:url(munin-logo-305x80.png) no-repeat 0 0;
+  padding: 0 0 0 330px;
 }
 
 div.logo
 {
-  background-image:url(munin-logo-305x80.png);
+  /*background-image:url(munin-logo-305x80.png);
   background-repeat:no-repeat;
   width:325px;
-  height:80px;
+  height:80px;*/
 }
 
 div.lighttext
@@ -293,13 +295,19 @@ div.catsectiontip
   margin-top:20px;
 }
 
+#generated
+{
+  font-style:italic;
+  font-size:80%;
+}
+
+/** Links **/
+
 a.meek:link,a.meek:active
 {
   color:#486aaf;
   font-size:small;
 }
-
-/** Links **/
 
 a.warn:link,a.warn:visited,a.warn:active,a.warn:hover
 {
@@ -314,10 +322,4 @@ a.crit:link,a.crit:visited,a.crit:active,a.crit:hover
 a:link,a:visited,a:active,a:hover
 {
   color:#486aaf;
-}
-
-#generated
-{
-  font-style:italic;
-  font-size:80%;
 }
